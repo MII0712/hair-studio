@@ -1,0 +1,25 @@
+.contact-page {
+  text-align: center;
+  margin: 7%;
+  padding: 5%;
+  
+}
+
+.contact-heading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 56px;
+  font-weight: bolder;
+  color: #333;
+  margin-bottom: 20px;
+  margin: 10px;
+}
+
+.contact-info {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #666;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}

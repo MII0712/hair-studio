@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.left {
+  flex: 1;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-details {
+  padding-right: 20px;
+}
+
+.right img {
+  max-width: 300px; /* adjust the size as needed */
+  animation: slideInRight 1s ease-out;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

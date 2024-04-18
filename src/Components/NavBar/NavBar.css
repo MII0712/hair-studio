@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:rgb(45, 47, 45);
+  color: #fff;
+}
+
+.logo img {
+  height: 40px; 
+}
+
+.links a {
+  margin-left: 20px; 
+  gap: 4rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: rgb(236, 141, 17);
+}
+

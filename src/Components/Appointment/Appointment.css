@@ -1,0 +1,43 @@
+.appointment-page {
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('../../Assets/appointment.png');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.appointment-page p {
+  padding-top: 15%;
+}
+
+.owner-name {
+  margin: 20px 0;
+ }
+
+.owner-name h2 {
+  color: white;
+  font-family: Times-BoldItalic;
+  font-size: 14px;
+}
+
+.appointment-button {
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 45px;
+  text-decoration: none;
+  border: 1px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-button:hover {
+  background-color: #1876a8;
+}
