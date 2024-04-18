@@ -16,11 +16,11 @@ function Navbar() {
         <img src={logo} alt="Logo" />
       </div>
       <div className={isActive ? "links active" : "links"}>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Our Team</a>
-        <a href="#">Prices</a>
-        <a href="#">Contact Us</a>
+        <a href="#hero">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#team">Our Team</a>
+        <a href="#prices">Prices</a>
+        <a href="#contact">Contact Us</a>
       </div>
         <IoMenu className="IoMenu" onClick={toggleMenu}/>
     </div>

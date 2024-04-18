@@ -3,10 +3,12 @@ import "./Prices.css";
 
 const PricesPage = () => {
   return (
-    <div className="prices-page">
+    <div id="prices" className="prices-page">
       <h1>PRICES</h1>
       <p className="category">
-        Our stylists are trained in a wide variety of skills and techniques.Our continuing eduction program ensures our entire team is constantly up-to-date on trends in the U.S. and around the world.
+        Our stylists are trained in a wide variety of skills and techniques.Our
+        continuing eduction program ensures our entire team is constantly
+        up-to-date on trends in the U.S. and around the world.
       </p>
       <div className="grid-container">
         <div className="grid-item">

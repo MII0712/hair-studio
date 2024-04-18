@@ -3,7 +3,7 @@ import "./ContactPage.css"; // Import the CSS file for styling
 
 const ContactPage = () => {
   return (
-    <div className="contact-page">
+    <div id="contact" className="contact-page">
       <h1 className="contact-heading">CONTACT</h1>
       <div className="contact-info">
         <p>Walk-ins are always welcome!</p>
