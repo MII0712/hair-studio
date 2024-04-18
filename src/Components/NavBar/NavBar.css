@@ -3,17 +3,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color:rgb(45, 47, 45);
+  background-color: rgb(0, 0, 0);
   color: #fff;
 }
 
 .logo img {
-  height: 40px; 
+  height: 40px;
+}
+
+.links {
+  display: flex;
+  gap: 4rem;
 }
 
 .links a {
-  margin-left: 20px; 
-  gap: 4rem;
   color: #fff;
   text-decoration: none;
 }
@@ -23,3 +26,42 @@
   color: rgb(236, 141, 17);
 }
 
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.IoMenu {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .links {
+    display: none; 
+  }
+
+  .navbar-toggle {
+    display: block; 
+  }
+  .IoMenu{
+    display: inline;
+  }
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 999;
+}
+
+.active a {
+  margin: 10px 0;
+}

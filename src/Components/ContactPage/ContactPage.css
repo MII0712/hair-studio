@@ -23,3 +23,33 @@
 .contact-info p {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-page {
+    margin: 5%;
+    padding: 3%;
+  }
+
+  .contact-heading {
+    font-size: 40px;
+  }
+
+  .contact-info {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-page {
+    margin: 3%;
+    padding: 2%;
+  }
+
+  .contact-heading {
+    font-size: 32px;
+  }
+
+  .contact-info {
+    font-size: 12px;
+  }
+}

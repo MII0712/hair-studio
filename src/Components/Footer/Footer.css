@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: #000000;
   padding: 20px;
 }
 
@@ -21,10 +21,11 @@
 
 .contact-details {
   padding-right: 20px;
+  color: white;
 }
 
 .right img {
-  max-width: 300px; /* adjust the size as needed */
+  max-width: 300px; 
   animation: slideInRight 1s ease-out;
 }
 
@@ -36,5 +37,30 @@
   100% {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .left,
+  .right {
+    flex: none;
+    width: 100%;
+  }
+
+  .left {
+    margin-bottom: 20px;
+  }
+
+  .contact-details {
+    padding-right: 0;
+  }
+
+  .right {
+    justify-content: center;
   }
 }

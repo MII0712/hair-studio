@@ -9,10 +9,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.appointment-page p {
-  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .owner-name {
@@ -39,5 +38,22 @@
 }
 
 .appointment-button:hover {
-  background-color: #1876a8;
+  background-color: #03849b;
+}
+
+@media screen and (max-width: 768px) {
+  .appointment-page {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .appointment-page {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .appointment-page p {
+    padding-top: 10%;
+  }
 }

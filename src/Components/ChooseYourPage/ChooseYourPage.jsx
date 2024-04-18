@@ -50,7 +50,13 @@ function ChooseYourPage() {
       <div className="left-container">
         <div className="upper-div">
           <h1>Choose Your Option</h1>
-          <p>Select the option that best fits your needs</p>
+          <p>
+            Our team is extremely talented and passionate. They are also among
+            the most highly trained and educated technicians in the industry.
+            This ensures each and every one of our clients receives world-class
+            service – each and every time. We want your experience to be unlike
+            any other.
+          </p>
         </div>
         <div className="slider_container">
           <Slider {...settings}>
